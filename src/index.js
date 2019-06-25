@@ -1,18 +1,19 @@
 import React from "react";
+// import "../style/style.css";
+import "../style/style.css";
 
-const ReactColorSquare = props => {
-  const { width, height, color, text } = props;
-  return (
-    <div
-      style={{
-        width: width || 100,
-        height: height || 100,
-        backgroundColor: color || "blue"
-      }}
-    >
-      {text}
-    </div>
-  );
+export const UIcontainer = props => {
+  return <div className="grid admin">{props.children}</div>;
 };
 
-export default ReactColorSquare;
+export const UIheader = props => {
+  return <header role="banner">{props.children}</header>;
+};
+
+export const UImain = props => {
+  return <main>{props.children}</main>;
+};
+
+export const UIaside = props => {
+  return <aside>{props.children}</aside>;
+};
