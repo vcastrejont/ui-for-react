@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/vcastrejont/ui-for-react#readme",
   "dependencies": {
-  "set-value": ">=2.0.1"
+  "set-value": ">=4.0.1"
 },
   "devDependencies": {
     "@babel/core": "^7.4.5",
